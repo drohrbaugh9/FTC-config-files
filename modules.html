@@ -9,22 +9,22 @@
         <tr bgcolor="#FFFFFF">
           <td width="20%"><b>Device Interface Module</b></td>
           <td width="%20"><code>&lt;DeviceInterfaceModule name="name" serialNumber="########"&gt;&lt;/DeviceInterfaceModule&gt;</code></td>
-          <td>A <code>Device Interface Module</code> connects to sensors and other external electronics</td>
+          <td>A <code>DeviceInterfaceModule</code> connects to sensors and other external electronics</td>
         </tr>
         <tr bgcolor="#FFFFFF">
           <td width="20%"><b>Legacy Module</b></td>
           <td></td>
-          <td>A <code>Legacy Module</code> connects to the old HiTechnic modules and LEGO Mindstorms sensors</td>
+          <td>A <code>LegacyModule</code> connects to the old HiTechnic modules and LEGO Mindstorms sensors</td>
         </tr>
         <tr bgcolor="#FFFFFF">
           <td width="20%"><b>Motor Controller</b></td>
           <td width="%20"><code>&lt;MotorController name="name" serialNumber="########"&gt;&lt;/MotorController&gt;</code></td>
-          <td>A <code>Motor Controller</code> controls up to two DC motors</td>
+          <td>A <code>MotorController</code> controls up to two DC motors</td>
         </tr>
         <tr bgcolor="#FFFFFF">
           <td width="20%"><b>Servo Controller</b></td>
           <td width="%20"><code>&lt;ServoController name="name" serialNumber="########"&gt;&lt;/ServoController&gt;</code></td>
-          <td>A <code>Servo Controller</code> controls up to six servos</td>
+          <td>A <code>ServoController</code> controls up to six servos</td>
         </tr>
       </tbody>
     </table>
@@ -41,9 +41,14 @@
           <td>A <code>Gyro</code> provides rotation feedback</td>
         </tr>
         <tr bgcolor="#FFFFFF">
-          <td width="20%"><b>I2cDevice</b></td>
+          <td width="20%"><b>I2C Device</b></td>
           <td width="%20"><code>&lt;I2cDevice name="name" port="" /&gt;</code></td>
           <td>An <code>I2cDevice</code> communicates with the DIM via I2C</td>
+        </tr>
+        <tr bgcolor="#FFFFFF">
+          <td width="20%"><b>Optical Distance Sensor</b></td>
+          <td width="%20"><code>&lt;OpticalDistanceSensor name="name" port="" /&gt;</code></td>
+          <td>An <code>OpticalDistanceSensor</code> communicates with the DIM via I2C</td>
         </tr>
       </tbody>
     </table>
