@@ -1,18 +1,5 @@
 # FTC-config-files
 
-<style>
-code
-{
-  color:#000;
-  font-weight: normal;
-}
-td
-{
-  color:#000;
-  font-weight: normal;  
-}
-</style>
-
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head></head>
   <body>
@@ -41,12 +28,6 @@ td
           <td width="%20"><code>&lt;ServoController name="name" serialNumber="########"&gt;&lt;/ServoController&gt;</code></td>
           <td>A <code>ServoController</code> controls up to six servos</td>
         </tr>
-      </tbody>
-    </table>
-    <p></p>
-    
-    <table width="100%" cellspacing="0" cellpadding="3" border="1" xmlns="http://www.w3.org/1999/xhtml" summary="">
-      <tbody xmlns="http://www.w3.org/1999/xhtml">
         <tr bgcolor="#4999FF">
           <th align="left" colspan="3"><font size="+2" color="#FFFFFF"><b>Device Interface Module</b></font></th>
         </tr>
