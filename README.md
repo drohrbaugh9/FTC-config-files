@@ -14,7 +14,7 @@
         <tr bgcolor="#FFFFFF">
           <td width="20%"><b>Lynx Embedded IMU</b></td>
           <td><code>&lt;LynxEmbeddedIMU name="imu" port="0" bus="0" /&gt;</code></td>
-          <td>A <code>LynxEmbeddedIMU</code> more description here</td>
+          <td>A <code>LynxEmbeddedIMU</code> is an Inertial Measurement Unit, which aids the robot in navigation</td>
         </tr>
         <tr bgcolor="#F05A28">
           <th align="left" colspan="3"><font size="+2" color="#FFFFFF"><b>Analog Input Devices</b></font></th>
@@ -31,22 +31,22 @@
         <tr bgcolor="#FFFFFF">
           <td width="20%"><b>NeveRest 20 Gearmotor</b></td>
           <td width="%20"><code>&lt;NeveRest20Gearmotor name="name" port="" /&gt;</code></td>
-          <td>A <code>NeveRest20Gearmotor</code> more description here</td>
+          <td>A <code>NeveRest20Gearmotor</code> is a DC motor with a 20:1 gear ratio</td>
         </tr>
         <tr bgcolor="#FFFFFF">
           <td width="20%"><b>NeveRest 3.7 v1 Gearmotor</b></td>
           <td width="%20"><code>&lt;NeveRest3.7v1Gearmotor name="name" port="" /&gt;</code></td>
-          <td>A <code>NeveRest3.7v1Gearmotor</code> more description here</td>
+          <td>A <code>NeveRest3.7v1Gearmotor</code> is a DC motor with a 3.7:1 gear ratio</td>
         </tr>
         <tr bgcolor="#FFFFFF">
           <td width="20%"><b>NeveRest 40 Gearmotor</b></td>
           <td width="%20"><code>&lt;NeveRest40Gearmotor name="name" port="" /&gt;</code></td>
-          <td>A <code>NeveRest40Gearmotor</code> more description here</td>
+          <td>A <code>NeveRest40Gearmotor</code> is a DC motor with a 40:1 gear ratio</td>
         </tr>
         <tr bgcolor="#FFFFFF">
           <td width="20%"><b>NeveRest 60 Gearmotor</b></td>
           <td width="%20"><code>&lt;NeveRest60Gearmotor name="name" port="" /&gt;</code></td>
-          <td>A <code>NeveRest60Gearmotor</code> more description here</td>
+          <td>A <code>NeveRest60Gearmotor</code> is a DC motor with a 60:1 gear ratio</td>
         </tr>
         <tr bgcolor="#F05A28">
           <th align="left" colspan="3"><font size="+2" color="#FFFFFF"><b>PWM Devices</b></font></th>
@@ -57,12 +57,12 @@
         <tr bgcolor="#FFFFFF">
           <td width="20%"><b>Continuous Rotation Servo</b></td>
           <td width="%20"><code>&lt;ContinuousRotationServo name="name" port="" /&gt;</code></td>
-          <td>A <code>ContinuousRotationServo</code> more description here</td>
+          <td>A <code>ContinuousRotationServo</code>provides rotational movement, usually slower, but not in a fixed range</td>
         </tr>
         <tr bgcolor="#FFFFFF">
           <td width="20%"><b>Servo</b></td>
           <td width="%20"><code>&lt;Servo name="name" port="" /&gt;</code></td>
-          <td>A <code>Servo</code> more description here</td>
+          <td>A <code>Servo</code> provides rotational movement, usually slower and in a fixed range</td>
         </tr>
       </tbody>
     </table>
