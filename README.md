@@ -6,6 +6,9 @@
     <table width="100%" cellspacing="0" cellpadding="3" border="1" summary="">
       <tbody>
         <tr bgcolor="#4999FF">
+          <th align="left" colspan="3"><font size="+2" color="#FFFFFF"><b>Old Modern Robotics Electronics</b></font></th>
+        </tr>
+        <tr bgcolor="#4999FF">
           <th align="left" colspan="3"><font size="+2" color="#FFFFFF"><b>Modules</b></font></th>
         </tr>
         <tr bgcolor="#FFFFFF">
@@ -54,12 +57,27 @@
         <tr bgcolor="#FFFFFF">
           <td width="20%"><b>Optical Distance Sensor</b></td>
           <td width="%20"><code>&lt;OpticalDistanceSensor name="name" port="" /&gt;</code></td>
-          <td>An <code>OpticalDistanceSensor</code> communicates with the DIM via I2C</td>
+          <td>An <code>OpticalDistanceSensor</code> measures distance or how dark or light a surface is</td>
         </tr>
         <tr bgcolor="#FFFFFF">
           <td width="20%"><b>Touch Sensor</b></td>
           <td width="%20"><code>&lt;TouchSensor name="name" port="" /&gt;</code></td>
           <td>A <code>TouchSensor</code> senses whether a momentary switch is pressed or not pressed</td>
+        </tr>
+        <tr bgcolor="#4999FF">
+          <th align="left" colspan="3"><font size="+2" color="#FFFFFF"><b>Motor Controller</b></font></th>
+        </tr>
+        <tr bgcolor="#FFFFFF">
+          <td width="20%"><b>Motor</b></td>
+          <td width="%20"><code>&lt;Motor name="name" port="" /&gt;</code></td>
+          <td>A <code>Motor</code> provides rotational movement</td>
+        </tr><tr bgcolor="#4999FF">
+          <th align="left" colspan="3"><font size="+2" color="#FFFFFF"><b>Servo Controller</b></font></th>
+        </tr>
+        <tr bgcolor="#FFFFFF">
+          <td width="20%"><b>Servo</b></td>
+          <td width="%20"><code>&lt;Servo name="name" port="" /&gt;</code></td>
+          <td>A <code>Servo</code> provides rotational movement, usually slower and in a fixed range</td>
         </tr>
       </tbody>
     </table>
